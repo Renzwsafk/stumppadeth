@@ -1,2 +1,2 @@
 # stumppadeth
-Stumppadeth source code
+Stumppadeth - A card-based first person shooter
