@@ -28,6 +28,14 @@ set(BUILD_EXAMPLES OFF CACHE INTERNAL "")
 FetchContent_MakeAvailable(glfw3)
 
 add_executable(stumppadeth main.cpp
+    vbo.h
+    vbo.cpp
+    vao.h
+    vao.cpp
+    default.vert
+    default.frag
+    shader.h
+    shader.cpp
     #renderer.h
     #renderer.cpp
 )
